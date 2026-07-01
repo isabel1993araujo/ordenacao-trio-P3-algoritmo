@@ -1,0 +1,3 @@
+Relatório bruto do gprof.
+
+Será preenchido após execução local do profiling.
