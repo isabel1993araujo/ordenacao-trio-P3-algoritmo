@@ -47,5 +47,35 @@ int main() {
     printf("Heap Sort: ");
     printArray(v6, n);
 
+    int v7[] = {9, 7, 5, 3, 1};
+    bubbleSort(v7, n);
+    printf("Bubble Sort (invertido): ");
+    printArray(v7, n);
+    
+    int v8[] = {9, 7, 5, 3, 1};
+    selectionSort(v8, n);
+    printf("Selection Sort (invertido): ");
+    printArray(v8, n);
+    
+    int v9[] = {9, 7, 5, 3, 1};
+    insertionSort(v9, n);
+    printf("Insertion Sort (invertido): ");
+    printArray(v9, n);
+    
+    int v10[] = {9, 7, 5, 3, 1};
+    mergeSort(v10, n);
+    printf("Merge Sort (invertido): ");
+    printArray(v10, n);
+    
+    int v11[] = {9, 7, 5, 3, 1};
+    quickSort(v11, n);
+    printf("Quick Sort (invertido): ");
+    printArray(v11, n);
+    
+    int v12[] = {9, 7, 5, 3, 1};
+    heapSort(v12, n);
+    printf("Heap Sort (invertido): ");
+    printArray(v12, n);
+    
     return 0;
 }
